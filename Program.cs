@@ -28,14 +28,23 @@ using System.Xml.Serialization;
 //    }
 //};
 
+string subFolder = "../../../QCOERENZA";
 
-string xmlContent = @"
-";
+// Il nome del file da aprire
+string fileName = "QCOERENZA1.txt";
 
-// Deserializza l'XML nel modello di oggetto
+// Costruisce il percorso relativo del file rispetto alla directory dell'eseguibile
+string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, subFolder, fileName);
 
-XmlSerializer serializer = new XmlSerializer(typeof(TemplateMaster));
-StringReader reader = new StringReader(xmlContent);
+try
+{
+    // Legge il contenuto del file
+    string fileContent = File.ReadAllText(filePath);
+
+    // Deserializza l'XML nel modello di oggetto
+
+    XmlSerializer serializer = new XmlSerializer(typeof(TemplateMaster));
+    StringReader reader = new StringReader(fileContent);
 
     var documentData = (TemplateMaster)serializer.Deserialize(reader);
 
@@ -55,5 +64,11 @@ StringReader reader = new StringReader(xmlContent);
     // Stampa della stringa JSON
     Console.WriteLine(jsonString);
 
-    
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Errore durante l'apertura del file: " + ex.Message);
+}
 
+
+    

@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 namespace StampeDatiDinamici
 {
-    [XmlRoot(ElementName = "TempleateMaster")]
+    [XmlRoot(ElementName = "customer")]
     public class TemplateMaster
     {
         public string documentCode = "";

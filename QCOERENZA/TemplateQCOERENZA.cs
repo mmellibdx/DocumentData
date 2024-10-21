@@ -8,12 +8,9 @@ using System.Xml.Serialization;
 namespace StampeDatiDinamici
 {
 
-
-
     [XmlRoot(ElementName = "customer")]
     public class TemplateQCOERENZA : TemplateMaster
     {
-        public string documentCode = "CAIT.AssicurazioniFinanziamentiCPI.3G_Quest_Coerenza.v1.0";
 
         [XmlElement(ElementName = "STitolo")]
         public string STitolo { get; set; }
