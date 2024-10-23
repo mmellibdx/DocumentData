@@ -11,20 +11,20 @@ namespace StampeDatiDinamici
 
     public class Item
     {
-        public string Key { get; set; }
-        public string Value { get; set; }
-        public string Description { get; set; }
-        public List<Item> Items { get; set; }
+        public string key { get; set; }
+        public string value { get; set; }
+        public string description { get; set; }
+        public List<Item> items { get; set; }
     }
 
     public class DocumentData
     {
-        public List<Item> Items { get; set; }
+        public List<Item> items { get; set; }
     }
 
     public class RootObject
     {
-        public DocumentData DocumentData { get; set; }
+        public DocumentData documentData { get; set; }
     }
 
     public static class ObjectConverter
@@ -33,9 +33,9 @@ namespace StampeDatiDinamici
         {
             RootObject rootObject = new RootObject
             {
-                DocumentData = new DocumentData
+                documentData = new DocumentData
                 {
-                    Items = ConvertObjectToItems(obj)
+                    items = ConvertObjectToItems(obj)
                 }
             };
 
@@ -64,8 +64,8 @@ namespace StampeDatiDinamici
                     // La proprietà è di un tipo primitivo o noto
                     items.Add(new Item
                     {
-                        Key = property.Name,
-                        Value = value.ToString()
+                        key = property.Name,
+                        value = value.ToString()
                     });
                 }
                 else if (typeof(IEnumerable).IsAssignableFrom(property.PropertyType) && property.PropertyType != typeof(string))
@@ -86,8 +86,8 @@ namespace StampeDatiDinamici
                     {
                         items.Add(new Item
                         {
-                            Description = property.Name,
-                            Items = subItems
+                            description = property.Name,
+                            items = subItems
                         });
                     }
                 }
@@ -99,8 +99,8 @@ namespace StampeDatiDinamici
                     {
                         items.Add(new Item
                         {
-                            Description = property.Name,
-                            Items = subItems
+                            description = property.Name,
+                            items = subItems
                         });
                     }
                 }
