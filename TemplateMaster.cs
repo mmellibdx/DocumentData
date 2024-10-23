@@ -10,34 +10,34 @@ namespace StampeDatiDinamici
     [XmlRoot(ElementName = "customer")]
     public class TemplateMaster
     {
-        public string documentCode = "";
 
         [XmlElement(ElementName = "documentInfo")]
-        public DocumentInfo DocumentInfo { get; set; }
+        public DocumentInfo documentInfo { get; set; }
 
         [XmlElement(ElementName = "bankCopy")]
-        public bool BankCopy { get; set; }
+        public string bankCopy { get; set; }
 
         [XmlElement(ElementName = "clientCopy")]
-        public bool ClientCopy { get; set; }
+        public string clientCopy { get; set; }
 
         [XmlElement(ElementName = "documentInfoInstitute")]
-        public DocumentInfoInstitute DocumentInfoInstitute { get; set; }
-
-        [XmlElement(ElementName = "bankCode")]
-        public string BankCode { get; set; }
+        public DocumentInfoInstitute documentInfoInstitute { get; set; }
 
         [XmlElement(ElementName = "signatureDate")]
-        public DateTime SignatureDate { get; set; }
+        public string signatureDate { get; set; }
 
         [XmlElement(ElementName = "signaturePlace")]
-        public string SignaturePlace { get; set; }
+        public string signaturePlace { get; set; }
 
         [XmlElement(ElementName = "branch")]
-        public Branch Branch { get; set; }
+        public Branch branch { get; set; }
 
         [XmlElement(ElementName = "banker")]
-        public Banker Banker { get; set; }
+        public Banker banker { get; set; }
+
+        [XmlElement(ElementName = "bankCode")]
+        public string bankCode { get; set; }
+
 
         [XmlElement(ElementName = "SRiferimentoTemplate")]
         public string SRiferimentoTemplate { get; set; }
@@ -54,40 +54,40 @@ namespace StampeDatiDinamici
     public class DocumentInfo
     {
         [XmlElement(ElementName = "publicDocId")]
-        public string PublicDocId { get; set; }
+        public string publicDocId { get; set; }
 
         [XmlElement(ElementName = "documentName")]
-        public string DocumentName { get; set; }
+        public string documentName { get; set; }
 
         [XmlElement(ElementName = "shortDocumentName")]
-        public string ShortDocumentName { get; set; }
+        public string shortDocumentName { get; set; }
 
         [XmlElement(ElementName = "digitalSignature")]
-        public bool DigitalSignature { get; set; }
+        public string digitalSignature { get; set; }
     }
 
     public class DocumentInfoInstitute
     {
         [XmlElement(ElementName = "blocchettoCivilisticoBody")]
-        public string BlocchettoCivilisticoBody { get; set; }
+        public string blocchettoCivilisticoBody { get; set; }
 
         [XmlElement(ElementName = "blocchettoCivilisticoHeader")]
-        public string BlocchettoCivilisticoHeader { get; set; }
+        public string blocchettoCivilisticoHeader { get; set; }
 
         [XmlElement(ElementName = "denominazioneBrevissimaIstituto")]
-        public string DenominazioneBrevissimaIstituto { get; set; }
+        public string denominazioneBrevissimaIstituto { get; set; }
 
         [XmlElement(ElementName = "denominazioneBreveIstituto")]
-        public string DenominazioneBreveIstituto { get; set; }
+        public string denominazioneBreveIstituto { get; set; }
 
         [XmlElement(ElementName = "denominazioneGruppo")]
-        public string DenominazioneGruppo { get; set; }
+        public string denominazioneGruppo { get; set; }
 
         [XmlElement(ElementName = "denominazioneIstituto")]
-        public string DenominazioneIstituto { get; set; }
+        public string denominazioneIstituto { get; set; }
 
         [XmlElement(ElementName = "emailServizioReclami")]
-        public string EmailServizioReclami { get; set; }
+        public string emailServizioReclami { get; set; }
 
         [XmlElement(ElementName = "URLSitoIstituzionale")]
         public string URLSitoIstituzionale { get; set; }
@@ -96,19 +96,19 @@ namespace StampeDatiDinamici
     public class Branch
     {
         [XmlElement(ElementName = "name")]
-        public string Name { get; set; }
+        public string name { get; set; }
 
         [XmlElement(ElementName = "code")]
-        public string Code { get; set; }
+        public string code { get; set; }
     }
 
     public class Banker
     {
         [XmlElement(ElementName = "name")]
-        public string Name { get; set; }
+        public string name { get; set; }
 
         [XmlElement(ElementName = "code")]
-        public string Code { get; set; }
+        public string code { get; set; }
     }
 
     public class Contraente
@@ -129,7 +129,7 @@ namespace StampeDatiDinamici
         public string SCPIVA { get; set; }
 
         [XmlElement(ElementName = "DIscrCCIAA")]
-        public DateTime DIscrCCIAA { get; set; }
+        public string DIscrCCIAA { get; set; }
 
         [XmlElement(ElementName = "DNascita")]
         public string DNascita { get; set; }

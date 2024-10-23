@@ -8,12 +8,12 @@
 		<bankCopy>false</bankCopy> 
 		<clientCopy>true</clientCopy>
 		<documentInfoInstitute>
-			<blocchettoCivilisticoBody>Capitale Sociale euro 1.102.071.064 i.v. - Iscritta al Registro Imprese di Parma, Codice Fiscale n. 02113530345, aderente al Gruppo IVA CrÈdit Agricole Italia, Partita Iva n. 02886650346. Codice ABI 6230.7. Iscritta all'Albo delle Banche al n. 5435. Aderente al Fondo Interbancario di Tutela dei Depositi e al Fondo Nazionale di Garanzia.</blocchettoCivilisticoBody>
+			<blocchettoCivilisticoBody>Capitale Sociale euro 1.102.071.064 i.v. - Iscritta al Registro Imprese di Parma, Codice Fiscale n. 02113530345, aderente al Gruppo IVA Cr√©dit Agricole Italia, Partita Iva n. 02886650346. Codice ABI 6230.7. Iscritta all'Albo delle Banche al n. 5435. Aderente al Fondo Interbancario di Tutela dei Depositi e al Fondo Nazionale di Garanzia.</blocchettoCivilisticoBody>
 			<blocchettoCivilisticoHeader>VIA UNIVERSITA' 1 - 43121 PARMA (Italia) Tel. 0521.912111 Fax 0521.912045</blocchettoCivilisticoHeader>
-			<denominazioneBrevissimaIstituto>CrÈdit Agricole</denominazioneBrevissimaIstituto>
-			<denominazioneBreveIstituto>CrÈdit Agricole Italia</denominazioneBreveIstituto>
-			<denominazioneGruppo>Gruppo CrÈdit Agricole</denominazioneGruppo>
-			<denominazioneIstituto>CrÈdit Agricole Italia S.p.A.</denominazioneIstituto>
+			<denominazioneBrevissimaIstituto>Cr√©dit Agricole</denominazioneBrevissimaIstituto>
+			<denominazioneBreveIstituto>Cr√©dit Agricole Italia</denominazioneBreveIstituto>
+			<denominazioneGruppo>Gruppo Cr√©dit Agricole</denominazioneGruppo>
+			<denominazioneIstituto>Cr√©dit Agricole Italia S.p.A.</denominazioneIstituto>
 			<emailServizioReclami>reclami@credit-agricole.it</emailServizioReclami>
 			<URLSitoIstituzionale>http://gruppo.credit-agricole.it</URLSitoIstituzionale>
 		</documentInfoInstitute>
@@ -34,9 +34,9 @@
 		<SIntro>Gentile cliente,</SIntro>
 		<SIntro2>Per favore, risponda alle seguenti domande.</SIntro2>
 		<Contraente>
-			<ENaturaGiuridica>Societ‡ per azioni</ENaturaGiuridica>
+			<ENaturaGiuridica>Societ√† per azioni</ENaturaGiuridica>
 			<CNDG>SPAA</CNDG>
-			<SIntestazione>Societ‡ Esempio S.p.A.</SIntestazione>
+			<SIntestazione>Societ√† Esempio S.p.A.</SIntestazione>
 			<SCFIS>01234567890</SCFIS>
 			<SCPIVA>01234567890</SCPIVA>
 			<DIscrCCIAA>2022-01-01</DIscrCCIAA>
@@ -62,7 +62,7 @@
 		<Questionario>
 			<NDurataFinanziamentoMesi>36</NDurataFinanziamentoMesi>
 			<DomandaRisposta>
-				<Domanda>Qual Ë il suo obiettivo di investimento?</Domanda>
+				<Domanda>Qual √® il suo obiettivo di investimento?</Domanda>
 				<NumColonneRisposte>2</NumColonneRisposte>
 				<NumRigheRisposte>1</NumRigheRisposte>
 				<Risposta>
@@ -75,7 +75,7 @@
 				</Risposta>
 			</DomandaRisposta>
 			<DomandaRisposta>
-				<Domanda>Qual Ë il suo orizzonte temporale?</Domanda>
+				<Domanda>Qual √® il suo orizzonte temporale?</Domanda>
 				<NumColonneRisposte>2</NumColonneRisposte>
 				<NumRigheRisposte>1</NumRigheRisposte>
 				<Risposta>

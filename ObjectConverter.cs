@@ -62,10 +62,17 @@ namespace StampeDatiDinamici
                 if (IsPrimitiveOrKnownType(property.PropertyType))
                 {
                     // La proprietà è di un tipo primitivo o noto
+
+                    // Gestione specifica per bool: converti il valore in minuscolo (true/false)
+                    string stringValue = property.PropertyType == typeof(bool)
+                        ? value.ToString().ToLower()
+                        : value.ToString();
+
+
                     items.Add(new Item
                     {
                         key = property.Name,
-                        value = value.ToString()
+                        value = stringValue
                     });
                 }
                 else if (typeof(IEnumerable).IsAssignableFrom(property.PropertyType) && property.PropertyType != typeof(string))

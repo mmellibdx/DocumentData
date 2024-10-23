@@ -1,0 +1,47 @@
+  <customer>
+    <documentInfo>
+      <publicDocId>1234567891011112</publicDocId>
+      <documentName>PrivacyAggiuntiva</documentName>
+      <shortDocumentName>Privacy</shortDocumentName>
+      <digitalSignature>false</digitalSignature>
+    </documentInfo>
+    <bankCopy>true</bankCopy>
+    <clientCopy>false</clientCopy>
+    <documentInfoInstitute>
+      <blocchettoCivilisticoBody>asdasdasdad</blocchettoCivilisticoBody>
+    </documentInfoInstitute>
+    <bankCode>05</bankCode>
+    <signatureDate>2023-09-26</signatureDate>
+    <signaturePlace>Parma</signaturePlace>
+    <branch>
+      <name>00403  AG. DI PARMA  3</name>
+      <code>00403</code>
+    </branch>
+    <banker>
+      <name>MARIO ROSSI</name>
+      <code>J123456</code>
+    </banker>
+    <bankCode>05</bankCode>
+    <SRiferimentoTemplate>AC.925 - Aprile 2024</SRiferimentoTemplate>
+    <Contraente>
+      <ENaturaGiuridica>PF</ENaturaGiuridica>
+      <CNDG>30365532</CNDG>
+      <SIntestazione>FERRARINI MASSIMILIANO</SIntestazione>
+      <SCognome>FERRARINI</SCognome>
+      <SNome>MASSIMILIANO</SNome>
+      <SCFIS>FRRMSM55B66G337D</SCFIS>
+      <SPIVA>12344445666</SPIVA>
+      <DIscrCCIAA>1955-09-26</DIscrCCIAA>
+      <DNascita>1955-09-26</DNascita>
+      <SIndirizzo>Via Roma, 55</SIndirizzo>
+      <SCitta>Parma</SCitta>
+      <SCAP>43123</SCAP>
+      <SProvincia>PR</SProvincia>
+    </Contraente>
+    <LegaleRappresentante>
+      <ENaturaGiuridica>PF</ENaturaGiuridica>
+      <CNDG>30365532</CNDG>
+      <SIntestazione>FERRARINI MASSIMILIANO</SIntestazione>
+      <SCFIS>FRRMSM55B66G337D</SCFIS>
+    </LegaleRappresentante>
+  </customer>

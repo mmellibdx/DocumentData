@@ -9,7 +9,7 @@ namespace StampeDatiDinamici
 {
 
     [XmlRoot(ElementName = "customer")]
-    public class TemplateQCOERENZA : TemplateMaster
+    public class TemplateDCOE : TemplateMaster
     {
 
         [XmlElement(ElementName = "STitolo")]
@@ -39,7 +39,7 @@ namespace StampeDatiDinamici
         public string IQuestionario { get; set; }
 
         [XmlElement(ElementName = "DCompilazione")]
-        public DateTime DCompilazione { get; set; }
+        public string DCompilazione { get; set; }
 
         [XmlElement(ElementName = "EEsitoAde")]
         public string EEsitoAde { get; set; }
