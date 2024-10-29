@@ -9,8 +9,10 @@ namespace DocumentData
 {
 
     [XmlRoot(ElementName = "customer")]
-    public class TemplateDPREVPrivacy : TemplateMaster
+    public class TemplateDPREVAllegato3 : TemplateMaster
     {
 
     }
+
+  
 }

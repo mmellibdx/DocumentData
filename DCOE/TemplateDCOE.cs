@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace StampeDatiDinamici
+namespace DocumentData
 {
 
     [XmlRoot(ElementName = "customer")]
@@ -57,10 +57,10 @@ namespace StampeDatiDinamici
     public class Questionario
     {
         [XmlElement(ElementName = "NDurataFinanziamentoMesi")]
-        public int NDurataFinanziamentoMesi { get; set; }
+        public string NDurataFinanziamentoMesi { get; set; }
 
         [XmlElement(ElementName = "DomandaRisposta")]
-        public List<DomandaRisposta> DomandeRisposte { get; set; }
+        public List<DomandaRisposta> DomandaRisposta { get; set; }
     }
 
     public class DomandaRisposta
@@ -75,7 +75,7 @@ namespace StampeDatiDinamici
         public int NumRigheRisposte { get; set; }
 
         [XmlElement(ElementName = "Risposta")]
-        public List<Risposta> Risposte { get; set; }
+        public List<Risposta> Risposta { get; set; }
     }
 
     public class Risposta
@@ -83,7 +83,7 @@ namespace StampeDatiDinamici
         [XmlElement(ElementName = "Flag")]
         public bool Flag { get; set; }
 
-        [XmlElement(ElementName = "STesto")]
-        public string STesto { get; set; }
+        [XmlElement(ElementName = "Stesto")]
+        public string Stesto { get; set; }
     }
 }

@@ -1,5 +1,4 @@
-﻿using DocumentData.DPREVPrivacy;
-using StampeDatiDinamici;
+﻿using DocumentData;
 using System.Diagnostics.Metrics;
 using System.IO;
 using System.Linq.Expressions;
@@ -10,6 +9,8 @@ using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 
+
+//string code = "DPREVAllegato3";
 string code = "DCOE";
 //string code = "DPREVPrivacy";
 
@@ -48,6 +49,11 @@ try
             TemplateDPREVPrivacy templateDPREVPrivacy = (TemplateDPREVPrivacy)(new XmlSerializer(typeof(TemplateDPREVPrivacy))).Deserialize(new StreamReader(filePath, Encoding.UTF8));
             var RootObject2 = ObjectConverter.ConvertToRootObject(templateDPREVPrivacy);
             jsonString = JsonSerializer.Serialize(RootObject2, options);
+            break;
+        case "DPREVAllegato3":
+            TemplateDPREVAllegato3 templateDPREVAllegato3 = (TemplateDPREVAllegato3)(new XmlSerializer(typeof(TemplateDPREVAllegato3))).Deserialize(new StreamReader(filePath, Encoding.UTF8));
+            var RootObject3 = ObjectConverter.ConvertToRootObject(templateDPREVAllegato3);
+            jsonString = JsonSerializer.Serialize(RootObject3, options);
             break;
         default:
             throw new Exception("codice template non gestito");

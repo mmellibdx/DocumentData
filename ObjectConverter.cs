@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StampeDatiDinamici
+namespace DocumentData
 {
 
     public class Item
@@ -77,26 +77,28 @@ namespace StampeDatiDinamici
                 }
                 else if (typeof(IEnumerable).IsAssignableFrom(property.PropertyType) && property.PropertyType != typeof(string))
                 {
-                    // La proprietà è una collezione (ma non una stringa)
-                    List<Item> subItems = new List<Item>();
+                   
 
                     foreach (var element in (IEnumerable)value)
                     {
+                        // La proprietà è una collezione (ma non una stringa)
+                        List<Item> subItems = new List<Item>();
                         var elementItems = ConvertObjectToItems(element);
                         if (elementItems != null)
                         {
                             subItems.AddRange(elementItems);
                         }
+                        if (subItems.Count > 0)
+                        {
+                            items.Add(new Item
+                            {
+                                description = property.Name,
+                                items = subItems
+                            });
+                        }
                     }
 
-                    if (subItems.Count > 0)
-                    {
-                        items.Add(new Item
-                        {
-                            description = property.Name,
-                            items = subItems
-                        });
-                    }
+                   
                 }
                 else
                 {

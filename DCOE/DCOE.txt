@@ -1,91 +1,245 @@
-<customer>
+	<customer>
 		<documentInfo>
 			<publicDocId>1234567891011112</publicDocId>
 			<documentName>Questionario di Coerenza</documentName>
-			<shortDocumentName>Questionario Coerenza</shortDocumentName>
+			<shortDocumentName>Progetto Personalizzato</shortDocumentName>
 			<digitalSignature>false</digitalSignature>
 		</documentInfo>
-		<bankCopy>false</bankCopy> 
-		<clientCopy>true</clientCopy>
+		<bankCopy>true</bankCopy>
+		<clientCopy>false</clientCopy>
 		<documentInfoInstitute>
-			<blocchettoCivilisticoBody>Capitale Sociale euro 1.102.071.064 i.v. - Iscritta al Registro Imprese di Parma, Codice Fiscale n. 02113530345, aderente al Gruppo IVA Crédit Agricole Italia, Partita Iva n. 02886650346. Codice ABI 6230.7. Iscritta all'Albo delle Banche al n. 5435. Aderente al Fondo Interbancario di Tutela dei Depositi e al Fondo Nazionale di Garanzia.</blocchettoCivilisticoBody>
-			<blocchettoCivilisticoHeader>VIA UNIVERSITA' 1 - 43121 PARMA (Italia) Tel. 0521.912111 Fax 0521.912045</blocchettoCivilisticoHeader>
-			<denominazioneBrevissimaIstituto>Crédit Agricole</denominazioneBrevissimaIstituto>
-			<denominazioneBreveIstituto>Crédit Agricole Italia</denominazioneBreveIstituto>
-			<denominazioneGruppo>Gruppo Crédit Agricole</denominazioneGruppo>
+			<blocchettoCivilisticoBody>Capitale Sociale euro 1.102.071.064 i.v. - Iscritta al Registro Imprese di Parma, Codice Fiscale n. 02113530345, aderente al Gruppo IVA Crédit Agricole Italia, Partita Iva n. 02886650346. Codice ABI 6230.7. Iscritta all'Albo delle Banche al n. 5435. Aderente al Fondo Interbancario di Tutela dei Depositi e al Fondo Nazionale di Garanzia. Capogruppo del Gruppo Bancario Crédit Agricole Italia iscritto all'Albo dei Gruppi Bancari al n. 6230.7 - Società soggetta all'attività di Direzione e Coordinamento di Crédit Agricole S.A.</blocchettoCivilisticoBody>
+			<blocchettoCivilisticoHeader>Crédit Agricole Italia S.p.A. - Sede Legale Via Università, 1 - 43121 Parma - telefono 0521.912111.</blocchettoCivilisticoHeader>
+			<denominazioneBrevissimaIstituto>Crédit Agricole Italia</denominazioneBrevissimaIstituto>
+			<denominazioneBreveIstituto>Crédit Agricole Italia S.p.A.</denominazioneBreveIstituto>
+			<denominazioneGruppo>Gruppo Bancario Crédit Agricole Italia</denominazioneGruppo>
 			<denominazioneIstituto>Crédit Agricole Italia S.p.A.</denominazioneIstituto>
 			<emailServizioReclami>reclami@credit-agricole.it</emailServizioReclami>
-			<URLSitoIstituzionale>http://gruppo.credit-agricole.it</URLSitoIstituzionale>
+			<URLSitoIstituzionale>http://www.credit-agricole.it</URLSitoIstituzionale>
 		</documentInfoInstitute>
-		<bankCode>01005</bankCode>
-		<signatureDate>2023-09-26</signatureDate>
-		<signaturePlace>Roma</signaturePlace>
+		<bankCode>05</bankCode>
+		<signatureDate>25/10/2024</signatureDate>
+		<signaturePlace>Parma</signaturePlace>
 		<branch>
-			<name>Filiale di Roma</name>
-			<code>F012345</code>
+			<name>AG. DI PARMA  3</name>
+			<code>00403</code>
 		</branch>
 		<banker>
-			<name>Giovanni Rossi</name>
-			<code>B001</code>
+			<name>MARIO ROSSI</name>
+			<code>J123456</code>
 		</banker>
-		<SRiferimentoTemplate>123456</SRiferimentoTemplate>
-		<STitolo>Domande sull'investimento</STitolo>
-		<STitolo2>Domande Generali</STitolo2>
-		<SIntro>Gentile cliente,</SIntro>
-		<SIntro2>Per favore, risponda alle seguenti domande.</SIntro2>
+		<SRiferimentoTemplate>CAIT.AssicurazioniFinanziamentiCPI.3G_Quest_Coerenza.v1.0</SRiferimentoTemplate>
+		<SIntro2>Le soluzioni assicurative sono modulabili in relazione all’esigenza di coprire taluni rischi correlati al verificarsi di alcuni eventi avversi che potrebbero occorrere nel corso del finanziamento, fermi restando i limiti di durata della copertura.</SIntro2>
 		<Contraente>
-			<ENaturaGiuridica>Società per azioni</ENaturaGiuridica>
-			<CNDG>SPAA</CNDG>
-			<SIntestazione>Società Esempio S.p.A.</SIntestazione>
-			<SCFIS>01234567890</SCFIS>
-			<SCPIVA>01234567890</SCPIVA>
-			<DIscrCCIAA>2022-01-01</DIscrCCIAA>
-			<DNascita>1990-01-01</DNascita>
-			<SIndirizzo>Via Roma 1</SIndirizzo>
-			<SCitta>Roma</SCitta>
-			<SCAP>00100</SCAP>
-			<SProvincia>RM</SProvincia>
+			<ENaturaGiuridica>PF</ENaturaGiuridica>
+			<CNDG>30365533</CNDG>
+			<SIntestazione>FERRARINI MASSIMILIANO</SIntestazione>
+			<SCFIS>FRRMSM55B66G337D</SCFIS>
+			<SPIVA></SPIVA>
+			<DIscrCCIAA></DIscrCCIAA>
+			<SLuogoNascita>Parma</SLuogoNascita>
+			<DNascita>16/12/1955</DNascita>
+			<SIndirizzo>Via Roma, 55</SIndirizzo>
+			<SCitta>Parma</SCitta>
+			<SCAP>43123</SCAP>
+			<SProvincia>PR</SProvincia>
+			<SEmail>prova@mail.it</SEmail>
+			<ETipoDocumento>C Identità</ETipoDocumento>
+			<SNumeroDocumento>AB123456</SNumeroDocumento>
 		</Contraente>
 		<LegaleRappresentante>
-			<ENaturaGiuridica>Persona fisica</ENaturaGiuridica>
-			<CNDG>PFIS</CNDG>
-			<SIntestazione>Mario Rossi</SIntestazione>
+			<ENaturaGiuridica>PF</ENaturaGiuridica>
+			<CNDG>30365533</CNDG>
+			<SIntestazione>FERRARINI MASSIMILIANO</SIntestazione>
+			<SCFIS>FRRMSM55B66G337D</SCFIS>
 		</LegaleRappresentante>
 		<QuestionarioEsito>
-			<IQuestionario>ESITO1</IQuestionario>
-			<DCompilazione>2023-09-26</DCompilazione>
-			<EEsitoAde>Positivo</EEsitoAde>
-			<CRiferimentoEsterno>RIF123456</CRiferimentoEsterno>
-			<CRaggrProdCollocatore>RAGGRUPPO1</CRaggrProdCollocatore>
-			<SNomeCompagnia>Assicurazioni Generali</SNomeCompagnia>
+			<IQuestionario>123456789</IQuestionario>
+			<DCompilazione>30/08/2024</DCompilazione>
+			<EEsitoAde>ADEG</EEsitoAde>
+			<CRiferimentoEsterno>QUEST-20241201123012346</CRiferimentoEsterno>
+			<CRaggrProdCollocatore>Nome Commerciale Prodotto</CRaggrProdCollocatore>
+			<SNomeCompagnia>CACI</SNomeCompagnia>
 		</QuestionarioEsito>
 		<Questionario>
-			<NDurataFinanziamentoMesi>36</NDurataFinanziamentoMesi>
+			<NDurataFinanziamentoMesi>48</NDurataFinanziamentoMesi>
 			<DomandaRisposta>
-				<Domanda>Qual è il suo obiettivo di investimento?</Domanda>
+				<Domanda>Posizione lavorativa:</Domanda>
 				<NumColonneRisposte>2</NumColonneRisposte>
-				<NumRigheRisposte>1</NumRigheRisposte>
+				<NumRigheRisposte>2</NumRigheRisposte>
 				<Risposta>
 					<Flag>true</Flag>
-					<STesto>Crescita del capitale</STesto>
+					<Stesto>LAVORATORE DIPENDENTE PRIVATO DA PIÙ DI 12 MESI NON ALLE DIPENDENZE DI PARENTI E AFFINI</Stesto>
 				</Risposta>
 				<Risposta>
 					<Flag>false</Flag>
-					<STesto>Protezione del capitale</STesto>
+					<Stesto>LAVORATORE DIPENDENTE PUBBLICO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>LAVORATORE AUTONOMO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>ALTRO (es. Non Lavoratore, Dipendente Privato da meno di 12 mesi e/o alle dipendenze di parenti e affini,...)</Stesto>
 				</Risposta>
 			</DomandaRisposta>
 			<DomandaRisposta>
-				<Domanda>Qual è il suo orizzonte temporale?</Domanda>
+				<Domanda>Il contratto di lavoro è disciplinato da:</Domanda>
 				<NumColonneRisposte>2</NumColonneRisposte>
 				<NumRigheRisposte>1</NumRigheRisposte>
 				<Risposta>
 					<Flag>true</Flag>
-					<STesto>Lungo termine (oltre 5 anni)</STesto>
+					<Stesto>LEGGE ITALIANA</Stesto>
 				</Risposta>
 				<Risposta>
 					<Flag>false</Flag>
-					<STesto>Breve termine (meno di 5 anni)</STesto>
+					<Stesto>LEGGE STRANIERA</Stesto>
+				</Risposta>
+			</DomandaRisposta>
+	        <DomandaRisposta>
+				<Domanda>1) In considerazione dell'esposizione finanziaria che andrai ad assumere con la stipula del contratto di finanziamento, è tuo interesse garantirti da alcuni eventi avversi inerenti alla tua persona che potrebbero occorrere nel corso del finanziamento medesimo?</Domanda>
+				<NumColonneRisposte>3</NumColonneRisposte>
+				<NumRigheRisposte>1</NumRigheRisposte>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>SI</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>true</Flag>
+					<Stesto>NO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NON RISPONDE</Stesto>
+				</Risposta>
+			</DomandaRisposta>
+			<DomandaRisposta>
+				<Domanda>2) Hai interesse, in caso di decesso, a mettere a disposizione dei tuoi eredi o beneficiari designati, una somma per far fronte agli impegni finanziari connessi al finanziamento?</Domanda>
+				<NumColonneRisposte>3</NumColonneRisposte>
+				<NumRigheRisposte>1</NumRigheRisposte>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>SI</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>true</Flag>
+					<Stesto>NO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NON RISPONDE</Stesto>
+				</Risposta>
+			</DomandaRisposta>
+			<DomandaRisposta>
+				<Domanda>3) La copertura contro il rischio morte può essere annuale (con pagamento di un premio annuo) o coprire l'intero finanziamento (con pagamento di un premio unico anticipato). Quale di queste soluzioni è in linea con le tue aspettative?</Domanda>
+				<NumColonneRisposte>2</NumColonneRisposte>
+				<NumRigheRisposte>2</NumRigheRisposte>
+				<Risposta>
+					<Flag>true</Flag>
+					<Stesto>PREMIO UNICO ANTICIPATO - SCONTATO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>PREMIO ANNUO MENSILIZZATO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NESSUNO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NON RISPONDE</Stesto>
+				</Risposta>
+			</DomandaRisposta>
+						<DomandaRisposta>
+				<Domanda>4) Hai interesse a proteggere la tua persona dal rischio connesso ad un'invalidità permanente (da intendersi grave e comunque non inferiore al 60%) derivante da infortunio e malattia?</Domanda>
+				<NumColonneRisposte>3</NumColonneRisposte>
+				<NumRigheRisposte>1</NumRigheRisposte>
+				<Risposta>
+					<Flag>true</Flag>
+					<Stesto>SI</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NON RISPONDE</Stesto>
+				</Risposta>
+			</DomandaRisposta>
+			<DomandaRisposta>
+				<Domanda>5) Hai interesse a garantirti dal rischio di Inabilità Temporanea Totale?</Domanda>
+				<NumColonneRisposte>3</NumColonneRisposte>
+				<NumRigheRisposte>1</NumRigheRisposte>
+				<Risposta>
+					<Flag>true</Flag>
+					<Stesto>SI</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NON RISPONDE</Stesto>
+				</Risposta>
+			</DomandaRisposta>
+			<DomandaRisposta>
+				<Domanda>6) In considerazione della durata del finanziamento, le tue attuali esigenze ed aspettative di copertura sono da considerarsi di:</Domanda>
+				<NumColonneRisposte>3</NumColonneRisposte>
+				<NumRigheRisposte>1</NumRigheRisposte>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>BREVE PERIODO (&lt;5 anni)</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>true</Flag>
+					<Stesto>MEDIO/LUNGO PERIODO (&gt;=5 anni)</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NON RISPONDE</Stesto>
+				</Risposta>
+			</DomandaRisposta>
+			<DomandaRisposta>
+				<Domanda>7) La copertura contro il rischio diverso dal rischio morte può essere annuale (con pagamento di un premio annuo) o poliennale (con pagamento di un premio unico anticipato per i primi 5 anni e di un premio annuo ricorrente, disdettabile di anno in anno, dal 6°anno fino alla scadenza originario del finanziamento). Quale di queste soluzioni è in linea con le tue aspettative?</Domanda>
+				<NumColonneRisposte>2</NumColonneRisposte>
+				<NumRigheRisposte>2</NumRigheRisposte>
+				<Risposta>
+					<Flag>true</Flag>
+					<Stesto>PREMIO UNICO ANTICIPATO SCONTATO E DAL 6° ANNO PREMIO ANNUO MENSILIZZATO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>PREMIO ANNUO MENSILIZZATO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NESSUNO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NON RISPONDE</Stesto>
+				</Risposta>
+			</DomandaRisposta>
+			<DomandaRisposta>
+				<Domanda>8) Sei consapevole che le soluzioni assicurative sopra menzionate sono soggette a Limiti, Esclusioni, Franchigie e Carenze?</Domanda>
+				<NumColonneRisposte>3</NumColonneRisposte>
+				<NumRigheRisposte>1</NumRigheRisposte>
+				<Risposta>
+					<Flag>true</Flag>
+					<Stesto>SI</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NO</Stesto>
+				</Risposta>
+				<Risposta>
+					<Flag>false</Flag>
+					<Stesto>NON RISPONDE</Stesto>
 				</Risposta>
 			</DomandaRisposta>
 		</Questionario>
-</customer>
+	</customer>

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace StampeDatiDinamici
+namespace DocumentData
 {
     [XmlRoot(ElementName = "customer")]
     public class TemplateMaster
@@ -145,6 +145,16 @@ namespace StampeDatiDinamici
 
         [XmlElement(ElementName = "SProvincia")]
         public string SProvincia { get; set; }
+
+        [XmlElement(ElementName = "SEmail")]
+        public string SEmail { get; set; }
+
+        [XmlElement(ElementName = "ETipoDocumento")]
+        public string ETipoDocumento { get; set; }
+
+        [XmlElement(ElementName = "SNumeroDocumento")]
+        public string SNumeroDocumento { get; set; }
+
     }
 
     public class LegaleRappresentante
@@ -157,6 +167,26 @@ namespace StampeDatiDinamici
 
         [XmlElement(ElementName = "SIntestazione")]
         public string SIntestazione { get; set; }
+
+        [XmlElement(ElementName = "SCFIS")]
+        public string SCFIS { get; set; }
+
+        [XmlElement(ElementName = "SLuogoNascita")]
+        public string SLuogoNascita { get; set; }
+
+        [XmlElement(ElementName = "DNascita")]
+        public string DNascita { get; set; }
+
+
+        [XmlElement(ElementName = "SIndirizzo")]
+        public string SIndirizzo { get; set; }
+
+        [XmlElement(ElementName = "SCitta")]
+        public string SCitta { get; set; }
+
+        [XmlElement(ElementName = "SCAP")]
+        public string SCAP { get; set; }
+
     }
 
 

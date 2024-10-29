@@ -1,0 +1,60 @@
+	<customer>
+		<documentInfo>
+			<publicDocId>1234567891011112</publicDocId>
+			<documentName>Allegato3</documentName>
+			<shortDocumentName>All3</shortDocumentName>
+			<digitalSignature>false</digitalSignature>
+		</documentInfo>
+		<bankCopy></bankCopy>
+		<clientCopy></clientCopy>
+		<documentInfoInstitute>
+			<blocchettoCivilisticoBody>Capitale Sociale euro 1.102.071.064 i.v. - Iscritta al Registro Imprese di Parma, Codice Fiscale n. 02113530345, aderente al Gruppo IVA Crédit Agricole Italia, Partita Iva n. 02886650346. Codice ABI 6230.7. Iscritta all'Albo delle Banche al n. 5435. Aderente al Fondo Interbancario di Tutela dei Depositi e al Fondo Nazionale di Garanzia. Capogruppo del Gruppo Bancario Crédit Agricole Italia iscritto all'Albo dei Gruppi Bancari al n. 6230.7 - Società soggetta all'attività di Direzione e Coordinamento di Crédit Agricole S.A.</blocchettoCivilisticoBody>
+			<blocchettoCivilisticoHeader>Crédit Agricole Italia S.p.A. - Sede Legale Via Università, 1 - 43121 Parma - telefono 0521.912111.</blocchettoCivilisticoHeader>
+			<denominazioneBrevissimaIstituto>Crédit Agricole Italia</denominazioneBrevissimaIstituto>
+			<denominazioneBreveIstituto>Crédit Agricole Italia S.p.A.</denominazioneBreveIstituto>
+			<denominazioneGruppo>Gruppo Bancario Crédit Agricole Italia</denominazioneGruppo>
+			<denominazioneIstituto>Crédit Agricole Italia S.p.A.</denominazioneIstituto>
+			<emailServizioReclami>reclami@credit-agricole.it</emailServizioReclami>
+			<URLSitoIstituzionale>http://www.credit-agricole.it</URLSitoIstituzionale>
+		</documentInfoInstitute>
+		<bankCode>05</bankCode>
+		<signatureDate>10/04/2024</signatureDate>
+		<signaturePlace>Parma</signaturePlace>
+		<branch>
+			<name>00403  AG. DI PARMA  3</name>
+			<code>00403</code>
+		</branch>
+		<banker>
+			<name>MARIO ROSSI</name>
+			<code>J123456</code>
+		</banker>
+		<SRiferimentoTemplate>AC.926 - Aprile 2024</SRiferimentoTemplate>
+		<Contraente>
+			<ENaturaGiuridica>PF</ENaturaGiuridica>
+			<CNDG>30365532</CNDG>
+			<SIntestazione>FERRARINI PERSONAFISICA</SIntestazione>
+			<SCFIS>FRRMSM55B66G337D</SCFIS>
+			<SPIVA></SPIVA>
+			<DIscrCCIAA></DIscrCCIAA>
+			<SLuogoNascita>Parma</SLuogoNascita>
+			<DNascita>06-02-1955</DNascita>
+			<SIndirizzo>Via Roma, 55</SIndirizzo>
+			<SCitta>Parma</SCitta>
+			<SCAP>43123</SCAP>
+			<SProvincia>PR</SProvincia>
+			<SEmail>prova@mail.it</SEmail>
+			<ETipoDocumento>Carta d'Identità</ETipoDocumento>
+			<SNumeroDocumento>AT4266538</SNumeroDocumento>
+		</Contraente>
+		<LegaleRappresentante>
+			<ENaturaGiuridica>PF</ENaturaGiuridica>
+			<CNDG>30365532</CNDG>
+			<SIntestazione>FERRARINI PERSONAFISICA</SIntestazione>
+			<SCFIS>FRRMSM55B66G337D</SCFIS>
+			<SLuogoNascita>Parma</SLuogoNascita>
+			<DNascita>06-02-1955</DNascita>
+			<SIndirizzo>Via Roma, 55</SIndirizzo>
+			<SCitta>Parma</SCitta>
+			<SCAP>43123</SCAP>
+		</LegaleRappresentante>
+	</customer>
