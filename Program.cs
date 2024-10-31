@@ -9,10 +9,10 @@ using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 
-
-//string code = "DPREVAllegato3";
-string code = "DCOE";
+//string code = "DCOE";
+string code = "DSBLC-QCOE";
 //string code = "DPREVPrivacy";
+//string code = "DPREVAllegato3";
 
 
 string subFolder = "../../../" + code;
@@ -45,6 +45,11 @@ try
             var RootObject1 = ObjectConverter.ConvertToRootObject(templateDCOE);
             jsonString = JsonSerializer.Serialize(RootObject1, options);
             break;
+        case "DSBLC-QCOE":
+            TemplateDCOE templateDSBLCQCOE = (TemplateDCOE)(new XmlSerializer(typeof(TemplateDCOE))).Deserialize(new StreamReader(filePath, Encoding.UTF8));
+            var RootObject4 = ObjectConverter.ConvertToRootObject(templateDSBLCQCOE);
+            jsonString = JsonSerializer.Serialize(RootObject4, options);
+            break;
         case "DPREVPrivacy":
             TemplateDPREVPrivacy templateDPREVPrivacy = (TemplateDPREVPrivacy)(new XmlSerializer(typeof(TemplateDPREVPrivacy))).Deserialize(new StreamReader(filePath, Encoding.UTF8));
             var RootObject2 = ObjectConverter.ConvertToRootObject(templateDPREVPrivacy);
@@ -55,6 +60,9 @@ try
             var RootObject3 = ObjectConverter.ConvertToRootObject(templateDPREVAllegato3);
             jsonString = JsonSerializer.Serialize(RootObject3, options);
             break;
+
+
+           
         default:
             throw new Exception("codice template non gestito");
     }

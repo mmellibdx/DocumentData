@@ -5,18 +5,8 @@
 			<shortDocumentName>Progetto Personalizzato</shortDocumentName>
 			<digitalSignature>false</digitalSignature>
 		</documentInfo>
-		<bankCopy>true</bankCopy>
-		<clientCopy>false</clientCopy>
-		<documentInfoInstitute>
-			<blocchettoCivilisticoBody>Capitale Sociale euro 1.102.071.064 i.v. - Iscritta al Registro Imprese di Parma, Codice Fiscale n. 02113530345, aderente al Gruppo IVA Crédit Agricole Italia, Partita Iva n. 02886650346. Codice ABI 6230.7. Iscritta all'Albo delle Banche al n. 5435. Aderente al Fondo Interbancario di Tutela dei Depositi e al Fondo Nazionale di Garanzia. Capogruppo del Gruppo Bancario Crédit Agricole Italia iscritto all'Albo dei Gruppi Bancari al n. 6230.7 - Società soggetta all'attività di Direzione e Coordinamento di Crédit Agricole S.A.</blocchettoCivilisticoBody>
-			<blocchettoCivilisticoHeader>Crédit Agricole Italia S.p.A. - Sede Legale Via Università, 1 - 43121 Parma - telefono 0521.912111.</blocchettoCivilisticoHeader>
-			<denominazioneBrevissimaIstituto>Crédit Agricole Italia</denominazioneBrevissimaIstituto>
-			<denominazioneBreveIstituto>Crédit Agricole Italia S.p.A.</denominazioneBreveIstituto>
-			<denominazioneGruppo>Gruppo Bancario Crédit Agricole Italia</denominazioneGruppo>
-			<denominazioneIstituto>Crédit Agricole Italia S.p.A.</denominazioneIstituto>
-			<emailServizioReclami>reclami@credit-agricole.it</emailServizioReclami>
-			<URLSitoIstituzionale>http://www.credit-agricole.it</URLSitoIstituzionale>
-		</documentInfoInstitute>
+		<bankCopy></bankCopy>
+		<clientCopy></clientCopy>
 		<bankCode>05</bankCode>
 		<signatureDate>25/10/2024</signatureDate>
 		<signaturePlace>Parma</signaturePlace>

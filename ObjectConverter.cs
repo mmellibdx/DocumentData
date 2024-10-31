@@ -5,6 +5,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace DocumentData
 {
@@ -58,6 +61,7 @@ namespace DocumentData
 
                 // Ignora DateTime con valore 01/01/0001 00:00:00
                 if (property.PropertyType == typeof(DateTime) && (DateTime)value == DateTime.MinValue) continue;
+
 
                 if (IsPrimitiveOrKnownType(property.PropertyType))
                 {

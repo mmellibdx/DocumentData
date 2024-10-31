@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DocumentData
 {
@@ -11,7 +13,6 @@ namespace DocumentData
     [XmlRoot(ElementName = "customer")]
     public class TemplateDCOE : TemplateMaster
     {
-
         [XmlElement(ElementName = "STitolo")]
         public string STitolo { get; set; }
 
@@ -29,6 +30,19 @@ namespace DocumentData
 
         [XmlElement(ElementName = "Questionario")]
         public Questionario Questionario { get; set; }
+
+        //Server per sblocco questionario
+        [XmlElement(ElementName = "STitoloDescrizione")]
+        public string STitoloDescrizione { get; set; }
+
+        //Server per sblocco questionario
+        [XmlElement(ElementName = "STestoDescrizione")]
+        public string STestoDescrizione { get; set; }
+
+        //Server per sblocco questionario
+        [XmlElement(ElementName = "SChiusura")]
+        public string STitoloDescSChiusurarizione { get; set; }
+
     }
 
     
@@ -61,6 +75,10 @@ namespace DocumentData
 
         [XmlElement(ElementName = "DomandaRisposta")]
         public List<DomandaRisposta> DomandaRisposta { get; set; }
+
+        [XmlElement(ElementName = "IQuestionario")]
+        //Il template dello sblocco questionario, ha l'IQuestionario qui e non nel QuestionarioEsito
+        public string IQuestionario { get; set; }
     }
 
     public class DomandaRisposta

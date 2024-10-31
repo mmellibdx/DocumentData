@@ -1,4 +1,3 @@
-<driver>
 	<customer>
 		<documentInfo>
 			<publicDocId>1234567891011112</publicDocId>
@@ -82,4 +81,3 @@
 		<STestoDescrizione>Errore operativo da parte dell'utente di filiale. Si richiede sblocco.</STestoDescrizione>
 		<SChiusura>Il Cliente conferma la veridicità delle informazioni sopra fornite.</SChiusura>
 	</customer>
-</driver>
