@@ -131,6 +131,9 @@ namespace DocumentData
         [XmlElement(ElementName = "DIscrCCIAA")]
         public string DIscrCCIAA { get; set; }
 
+        [XmlElement(ElementName = "SLuogoNascita")]
+        public string SLuogoNascita { get; set; }
+
         [XmlElement(ElementName = "DNascita")]
         public string DNascita { get; set; }
 
