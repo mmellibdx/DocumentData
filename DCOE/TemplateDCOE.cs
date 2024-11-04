@@ -41,7 +41,7 @@ namespace DocumentData
 
         //Server per sblocco questionario
         [XmlElement(ElementName = "SChiusura")]
-        public string STitoloDescSChiusurarizione { get; set; }
+        public string SChiusura { get; set; }
 
     }
 
